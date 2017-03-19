@@ -62,6 +62,19 @@ http://xuanxuan.chat
 
 如果你在使用 [Visual Studio Code](https://code.visualstudio.com/) 作为编辑器，则可以直接使用 Visual Studio Code 的调试任务（默认任务名称为 `Run`）进行调试。
 
+### client development
+
+The main technology used by the client is Webpack + Electron + React. Use the following steps to quickly enter the development state:
+
+1. Download Source：`git clone https://github.com/easysoft/xuanxuan.git`；
+2. In the source directory implementation: npm install；
+3. Start react hot server, execute: npm run hot-server；
+4. Start the client, execute: npm run start-hot。
+
+Execute the npm run package for client packaging.
+
+If you are using Visual Studio Code as an editor, you can debug directly using Visual Studio Code's debugging task (the default task name is Run).
+
 ## 许可证
 
 喧喧使用 [ZPL](https://github.com/easysoft/xuanxuan/blob/master/LICENSE) 开源许可证，另外还使用了如下开源项目：
